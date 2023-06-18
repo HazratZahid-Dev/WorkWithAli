@@ -27,9 +27,9 @@ export const deleteData=async(req,res)=>{
         result
     
     });
-    res.json({
-        status:'fail',
-        error:error.message,
+    // res.json({
+    //     status:'fail',
+    //     error:error.message,
     
-    })
+    // })
 }
