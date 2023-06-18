@@ -3,8 +3,8 @@ import mongoose from "mongoose";
 import routes from "./Routes/BlogsRoutes.js";
 
 const app= Express();
- app.use(Express.json)
-//  app.use(routes)
+ app.use(Express.json())
+  app.use('/',routes)
 const url='mongodb://localhost:27017/WorkWithAli'
 const port=9000;
 
